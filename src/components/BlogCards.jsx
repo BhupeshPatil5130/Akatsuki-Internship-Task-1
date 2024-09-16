@@ -44,7 +44,7 @@ const BlogCards = () => {
                   <time dateTime={post.date}>{post.date}</time>
                   <span className="separator"></span>
                   <ion-icon name="time-outline"></ion-icon>
-                  <time dateTime={`PT${post.time.replace(' min', 'M')}`}>
+                  <time>
                     {post.time}
                   </time>
                 </p>
